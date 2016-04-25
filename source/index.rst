@@ -24,11 +24,23 @@ Munin 概要
 
 Munin はリソースの監視ツールです。リソースの推移を解析することで「性能を殺しているのは何か」を迅速に特定する手助けになります。コードは Perl 言語で書かれており、GitHub を通して開発が行われています。
 
+.. toctree::
+   :caption: Munin 概要
+   :hidden:
+
+   overview/munin.rst
+   overview/why.rst
+   overview/architecture.rst
+   overview/functions.rst
+   overview/community.rst
+   overview/history.rst
+
 * Munin とは何なのか？
-* Munin の歴史
-* 基本アーキテクチャはクライアント・サーバ型
 * どうして Munin なのか？ 
+* 基本アーキテクチャはクライアント・サーバ型
 * Munin ができること、できないこと
+* 開発コミュニティ
+* Munin の歴史
 
 環境構築
 --------------------
